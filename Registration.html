@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <title>Online Voting System</title>
+  </head>
+  <body>
+    
+      <div class="bg-secondary py-2">
+         <h1 class="text-center mt-2 ">Registration Here</h1>
+      </div>
+
+      <div class="py-2 text-center">
+        
+         <form action="./api/r.php" method="post" enctype="multipart/form-data">
+         <input type="text" class="w-25 " name="name" placeholder="Enetre your name"> <br> <br>
+
+         <input type="number" class="w-25 " name="mobile" placeholder="Enter mobile number"> <br> <br>
+
+         <input type="password" class="w-25 " name="password" placeholder="password"> <br> <br>
+
+         <input type="password" class="w-25 " name="cpassword" placeholder="Confrom password"> <br> <br>
+
+         <input type="text" class="w-25 " name="address" placeholder="Address"> <br> <br>
+        <center>
+         <input type="file" name="photo"> <br> <br>
+        </center>
+         <select name="role" class="w-25 py-2" >
+            <option value="1">Voter</option>
+            <option value="2">Group</option>
+         </select> <br> <br>
+        
+         <button name="Register" class="w-25 ">Register</button> <br>
+         </form>
+         already User <a href="index.html">Login</a>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </body>
+</html>
